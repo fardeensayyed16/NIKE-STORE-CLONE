@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  position: sticky;
+  top: 0;
+}
+.firstsection {
+  overflow-x: hidden;
+
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  gap: 13px;
+  font-weight: 500;
+}
+.logo img {
+  height: 33px;
+  position: relative;
+  right: 141px;
+  margin-top: 12px;
+}
+nav ul li {
+  list-style: none;
+  color: rgb(17, 17, 96);
+}
+nav ul li a {
+  text-decoration: none;
+}
+div {
+  position: relative;
+  left: 123px;
+  margin-top: 19px;
+  font-size: 17px;
+  letter-spacing: 6px;
+  margin-left: 32px;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+nav ul li :hover {
+  color: green;
+  font-weight: 600;
+}
+.secondsection {
+  height: 170px;
+  width: 1130px;
+}
+.secondsection h1 {
+  display: flex;
+  justify-content: center;
+}
+.secondsection h1:hover {
+  color: plum;
+}
+.secondsection h3:hover {
+  color: plum;
+}
+.secondsection h3 {
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  height: 1800px;
+  overflow-x: hidden;
+}
+.image1 {
+  display: flex;
+  margin-left: 170px;
+  gap: 45px;
+  cursor: pointer;
+}
+.me1 img {
+  height: 360px;
+}
+.me2 img {
+  height: 360px;
+}
+.me3 img {
+  height: 360px;
+}
+.image2 {
+  display: flex;
+  margin-left: 170px;
+  gap: 45px;
+  margin-top: 130px;
+  cursor: pointer;
+}
+.me4 img {
+  height: 360px;
+}
+.me5 img {
+  height: 360px;
+}
+.me6 img {
+  height: 360px;
+}
+.image3 {
+  display: flex;
+  margin-left: 170px;
+  gap: 45px;
+  margin-top: 130px;
+  cursor: pointer;
+}
+.me7 img {
+  height: 360px;
+}
+.me8 img {
+  height: 360px;
+}
+.me9 img {
+  height: 360px;
+}
+.image4 {
+  display: flex;
+  margin-left: 170px;
+  gap: 45px;
+  margin-top: 130px;
+  cursor: pointer;
+}
+.me10 img {
+  height: 360px;
+}
+.me11 img {
+  height: 360px;
+}
+.me12 img {
+  height: 360px;
+}
+.last {
+  height: 550px;
+  background-color: black;
+  margin-top: 70px;
+}
+p {
+  color: wheat;
+  margin-bottom: 23px;
+}
+input {
+  font-size: 21px;
+  border-radius: 15px;
+}
+button {
+  font-size: 18px;
+  border-radius: 19px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  border: 4px transparent greenyellow;
+}
+button:hover {
+  border: 2px solid rgb(47, 241, 255);
+}
+.sub {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.sub ul li a {
+  text-decoration: none;
+}
+
+.line {
+  height: 2px;
+  width: 80%;
+  border: 0;
+
+  background-color: green;
+}
+.final {
+  color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content: end;
+  margin-right: 300px;
+
+  font-size: 25px;
+}
+span {
+  line-height: 60px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.sub .cool a,
+.sub .night a,
+.sub .day a {
+  color: rgb(29, 161, 106);
+  line-height: 27px;
+}
+.final h2 {
+  color: aquamarine;
+}
+.final h2:hover {
+  color: aqua;
+}
+
+.sub .cool ul li a:hover {
+  color: rgb(8, 235, 159);
+  text-decoration: underline;
+}
+.sub .night ul li a:hover {
+  color: rgb(8, 235, 159);
+  text-decoration: underline;
+}
+.sub .day a:hover {
+  color: rgb(8, 235, 159);
+  text-decoration: underline;
+}
+.none {
+  background-color: plum;
+  color: black;
+  position: relative;
+  left: -33px;
+  width: 361px;
+  bottom: 17px;
+  cursor: pointer;
+  border: 2px transparent salmon;
+}
+.p1,
+.p2 {
+  color: black;
+}
+.p2 {
+  position: relative;
+  left: 255px;
+  bottom: 46px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.p1 {
+  display: flex;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.p1:hover {
+  text-decoration: underline;
+}
+.p2:hover {
+  text-decoration: underline;
+}
+.none:hover {
+  background-color: pink;
+
+  font-size: 1rem;
+  border: 4px solid salmon;
+}
+
+.none h2 {
+  letter-spacing: 1px;
+}
+
+.final {
+  letter-spacing: 1px;
+}
+.sub .cool,
+.sub .night,
+.sub .day {
+  letter-spacing: 1px;
+}
+.me1:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me2:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me3:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me4:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me5:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me6:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me7:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me8:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me9:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me10:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me11:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.me12:hover {
+  transform: scale(1.07);
+  transition: 0.8s;
+}
+.firstsection img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.three li a {
+  color: aquamarine;
+}
